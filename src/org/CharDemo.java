@@ -19,7 +19,6 @@ public class CharDemo {
 		
 		System.out.println(""+1+2);
 		
-		
 		char un1 = '\u0939';
 		char un2 = '\u093F';
 		char un3 = '\u0930';
