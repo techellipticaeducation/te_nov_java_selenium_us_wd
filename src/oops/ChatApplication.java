@@ -13,7 +13,8 @@ public class ChatApplication {
 		System.out.println(h1.country);	
 		System.out.println(h2.country);
 		
-		
+		// class name . varibale
+		System.out.println(Human.country);
 		
 		// 1000 object of human class
 		// name = 1000 per object 1 name variable
