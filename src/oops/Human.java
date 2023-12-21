@@ -9,6 +9,12 @@ public class Human {
 	int height;
 	static String country;
 	
+	
+	Human(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+	
 	// behavior
 	
 	void speak(String content){

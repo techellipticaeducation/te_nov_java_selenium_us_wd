@@ -5,16 +5,19 @@ public class ChatApplication {
 		
 		// How to create object of a class
 		
-		Human h1=new Human();
+		Human h1=new Human("Vaibhav",34);
 		h1.country = "India";
-		Human h2=new Human();
+		Human h2=new Human("Harisha", 32);
 		h2.country = "Pakistan";
 
-		System.out.println(h1.country);	
-		System.out.println(h2.country);
+		h1.speak("Hi");
+		h2.speak("Hello");
 		
+//		System.out.println(h1.country);	
+//		System.out.println(h2.country);
+//		
 		// class name . varibale
-		System.out.println(Human.country);
+//		System.out.println(Human.country);
 		
 		// 1000 object of human class
 		// name = 1000 per object 1 name variable
